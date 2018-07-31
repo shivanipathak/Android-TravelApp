@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">LetsGo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signup_name">SignUp</string>
+    <string name="loginbt_name">Login</string>
+    <string name="textv_heading">SignUp</string>
+    <string name="edit_text1name">First Name</string>
+    <string name="edit_text2name">Last Name</string>
+    <string name="edit_textemail">Email</string>
+    <string name="edit_textphone">Phone Number</string>
+    <string name="edit_textpassword">Enter password</string>
+    <string name="edit_textconfirmpassword">Confirm password</string>
+
+
+    <string name="useredit_name">Enter username</string>
+    <string name="passedit_name">Enter password</string>
+    <string name="button_text">LOGIN</string>
+
+    <string name="alreadyuser_text1">Already a user!</string>
+    <string name="alreadyuser_text2"><u>Click here</u></string>
+    <string name="alreadyuser_text3"> to Login</string>
+
+    <string name="newuser_text">New user?</string>
+    <string name="clickhere_text"><u>Click here</u></string>
+    <string name="clickhere_text1">to create account</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_example_maps">Map</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="map_searchbt">Search</string>
+
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
+
+    <string name="nearbyfind_bt">FIND</string>
+</resources>

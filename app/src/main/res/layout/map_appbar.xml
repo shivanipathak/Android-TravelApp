@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:orientation="horizontal"
+
+    >
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/searchedit"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_gravity="right"
+            android:id="@+id/searchimagev1"
+            android:src="@drawable/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+
+    <Button
+
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:gravity="right|fill_horizontal"
+        android:id="@+id/searchbt"
+        android:text="@string/map_searchbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"/>
+</android.support.v7.widget.Toolbar>
